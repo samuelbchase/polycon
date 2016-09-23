@@ -1,0 +1,226 @@
+/* Remove Padding */
+
+#page td {
+    padding:0; margin:0;
+}
+
+#Banner{
+    width:100%;
+    background-color:darkgreen;
+    height:100px;
+    text-align:center;
+}
+
+#Banner h1{
+    font-family:'Damion';
+    font-size:3em;
+    color:gold;
+}
+#Banner h2{
+    font-family:'Damion';
+    color:gold;
+}
+
+#page {
+    border-collapse: collapse;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Padding Removed*/
+
+#Titlebar{
+    width:100%;
+    background-color:darkgreen;
+    float:top;
+    margin-top:-1px;
+    height: 100px;
+}
+
+#spacer{
+    float:left;
+    width:5%;
+    height:10%;
+    background-color:darkgreen;
+}
+.button_sliding_bg {
+    color: gold;
+    background: darkgreen;
+    padding: 1% 1.5%;
+    width: 11%;
+    min-height:20%;
+    margin:auto;
+    margin: .1%;
+    vertical-align: center;
+    font-family: 'OpenSansBold', sans-serif;
+    border: 3px solid gold;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height:15px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    max-height:28px;
+    min-height:28px;
+    overflow: hidden;
+}
+.button_sliding_bg:hover {
+    box-shadow: inset 0 100px 0 0 gold;
+    color: darkgreen;
+}
+
+p{
+
+    font-family:'Roboto';
+}
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    src: url(fonts/Roboto-Regular-webfont.ttf); /*URL to font*/
+}
+@font-face {
+    font-family: 'Damion'; /*a name to be used later*/
+    src: url(fonts/Damion-Regular.ttf); /*URL to font*/
+}
+@font-face {
+    font-family: 'FuturaB'; /*a name to be used later*/
+    src: url(fonts/unicode.futurab.ttf); /*URL to font*/
+}
+
+/* testing objects */
+#blackbox{
+    width:50%;
+    height:1200px;
+    backgroundcolor:black;
+}
+
+div.textblurb{
+    margin-left:15%;
+    width:25%;
+    max-width:720px;
+    /*border:2px solid black;
+    border-radius:10px; */
+    margin:auto;
+    margin-top:40px;
+
+}
+
+div.textblurb h2{
+    margin-left:-80%;
+    text-align: left;
+    color:darkgreen;
+    font-size:60px;
+    font-family: 'FuturaB';
+    margin-top:10px;
+}
+
+div.textblurb h4{
+    margin-left:-70%;
+    text-align: left;
+    color:darkgreen;
+    font-size:30px;
+    font-family: 'FuturaB';
+    margin-top:10px;
+}
+
+div.textblurb p{
+    margin-left:-60%;
+    text-align:left;
+    color:black;
+    font-family: 'Roboto';
+
+}
+
+div.textblurb p a{
+    cursor:pointer;
+    float:left;
+    position:relative;
+    margin-left:0px;
+    height: 20px;
+    padding-left:4px;
+    padding-right:4px;
+    line-height: 20px;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto';
+
+}
+
+
+.longbutton {
+    cursor:pointer;
+    position:absolute;
+    margin-left: -15%;
+    width: 360px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 1em;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-family:Roboto;
+}
+
+.button {
+    cursor:pointer;
+    float:left;
+    position:static;
+    margin-left:20px;
+    margin-right:20px;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 1em;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-family:Roboto;
+}
+
+
+.buttonblue {
+    cursor:pointer;
+    float:left;
+    position:static;
+    margin-left:20px;
+    margin-right:20px;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 2px;
+    font-size: 1em;
+    background-color: #3B5998;
+    color: white;
+    text-align: center;
+    font-family:'Roboto';
+}
+#facebook{
+    color:#3B5998
+}
+.nextEvent{
+    color:darkgreen;
+}
+div.textblurb p span{
+    text-size:6px;
+
+}
+div.contactspacer{
+    width:25%;
+    height:32px;
+    background-color:white;
+    float:left;
+    position:relative;
+}

@@ -1,0 +1,16 @@
+div {
+    border:1px black solid;
+}
+
+div:hover {
+    border:1px black solid;
+    background-color:yellow;
+}
+div p {
+    padding-left: 10px;
+}
+
+div a {
+    padding-left: 10px;
+    margin-top:5px;
+}
